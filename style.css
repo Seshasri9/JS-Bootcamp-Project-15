@@ -1,0 +1,907 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    margin: 10px 50px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-items{
+    display: flex;
+    color: white;
+    gap: 50px;
+    margin-top: 30px;
+    margin-right: 35px;
+}
+
+.logo{
+    margin-top: 30px;
+    margin-right: 120px;
+    width: 80px;
+    
+}
+
+.para-1{
+    display: flex;
+}
+
+.para-left>img{
+    width: 450px;
+    height: 450px;
+    margin-left: 100px;
+}
+
+.para-right{
+    color: white;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.para-right>h3{
+    color: red;
+    /* margin-left: 250px; */
+    font-size: 25px;
+}
+
+.para-right>h1{
+    /* margin-left: 250px; */
+    font-size: 70px;
+}
+
+.para-right>p{
+    /* margin-left: 250px; */
+    margin-top: 20px;
+}
+
+.button{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    /* margin-left: 250px; */
+    margin-top: 30px;
+}
+
+.para-2{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.para-2-left>h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+.para-2-left>p{
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.button-1{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    /* margin-left: 250px; */
+    margin-top: 30px;
+}
+
+.para-3{
+    display: flex;
+    gap: 70px;
+    margin-left: 180px;
+}
+
+.para-3-left>img{
+    width: 400px;
+    height: 250px;
+}
+
+.para-3-left{
+    background-color: rgb(31, 26, 26);
+    width: 450px;
+    height: 300px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 30px;
+    padding: 15px 10px;
+    padding-top: 30px;
+}
+
+.para-3-left>h4{
+    color: white;
+    margin-top: 50px;
+    margin-right: 250px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.para-3-left>h5{
+    color: red;
+    margin-top: 8px;
+    margin-right: 300px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.para-3-right>img{
+    width: 400px;
+    height: 250px;
+}
+
+.para-3-right{
+    background-color: rgb(31, 26, 26);
+    width: 450px;
+    height: 300px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 15px 10px;
+    padding-top: 30px;
+}
+
+.para-3-right>h4{
+    color: white;
+    margin-top: 50px;
+    margin-right: 250px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.para-3-right>h5{
+    color: red;
+    margin-top: 8px;
+    margin-right: 250px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.para-4{
+    display: flex;
+    gap: 70px;
+    margin-left: 180px;
+    margin-top: 90px;
+}
+
+.para-4-left>img{
+    width: 400px;
+    height: 250px;
+}
+
+.para-4-left{
+    background-color: rgb(31, 26, 26);
+    width: 450px;
+    height: 300px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 15px 10px;
+    padding-top: 30px;
+    margin-left: 30px;
+}
+
+.para-4-left>h4{
+    color: white;
+    margin-top: 50px;
+    margin-right: 200px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.para-4-left>h5{
+    color: red;
+    margin-top: 8px;
+    margin-right: 250px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.para-4-right>img{
+    width: 400px;
+    height: 250px;
+}
+
+.para-4-right{
+    background-color: rgb(31, 26, 26);
+    width: 450px;
+    height: 300px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 15px 10px;
+    padding-top: 30px;
+}
+
+.para-4-right>h4{
+    color: white;
+    margin-top: 50px;
+    margin-right: 250px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.para-4-right>h5{
+    color: red;
+    margin-top: 8px;
+    margin-right: 250px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.para-last{
+    display: flex;
+    color: white;
+    gap: 50px;
+    margin-top: 150px;
+    width: 980px;
+    height: 250px;
+    margin-left: 200px;
+    background-color: rgb(34, 33, 33);
+}
+
+.para-last-left{
+    /* padding: 20px 10px; */
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.para-last-left>h2{
+    font-size: 35px;
+}
+
+.para-last-left>p{
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgb(156, 150, 150);
+}
+
+.button-2{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    /* margin-left: 250px; */
+    margin-top: 100px;
+    margin-left: 150px;
+    font-size: 20px;
+
+}
+
+.para-01{
+    background-color: transparent;
+    color: transparent;
+}
+
+.middle{
+    background-color: rgb(27, 25, 25);
+    height: 10%;
+    width: 50%;
+}
+
+.middle>h1{
+    color: white;
+    text-align: center;
+    font-size: 90px;
+    position: absolute;
+    top: 150%;
+    left: 20%;
+}
+
+.middle>h4{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    position: absolute;
+    top: 170%;
+    left: 10%;
+}
+
+.middle-1{
+    display: flex;
+    margin-top: 50px;
+    color: white;
+}
+
+.box-1{
+    background-color: rgb(41, 41, 41);
+    width: 400px;
+    height: 300px;
+    margin-left: 280px;
+    margin-top: 20px;
+}
+
+.box-1>img{
+    margin-left: 50px;
+    margin-top: 15px;
+    width: 60px;
+    float: left;
+    margin-right: 150px;
+    margin-bottom: 20px;
+}
+
+.box-1>h4{
+    margin-left: 30px;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.box-1>p{
+    margin-top: 10px;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+.box-1>h5{
+    margin-top: 10px;
+    margin-left: 30px;
+    color: red;
+}
+
+.box-2{
+    background-color: rgb(184, 35, 35);
+    width: 400px;
+    height: 300px;
+    margin-left: 55px;
+    margin-top: 20px;
+}
+
+.box-2>img{
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-right: 150px;
+}
+
+.box-2>h4{
+    margin-left: 50px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.box-2>p{
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.box-2>h5{
+    margin-top: 10px;
+    margin-left: 50px;
+    color: rgb(255, 251, 251);
+}
+
+.box-3{
+    background-color: rgb(41, 41, 41);
+    width: 300px;
+    height: 300px;
+    margin-left: 55px;
+    margin-top: 20px;
+}
+
+.box-3>img{
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-right: 150px;
+}
+
+.box-3>h4{
+    margin-left: 50px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.box-3>p{
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.box-3>h5{
+    margin-top: 10px;
+    margin-left: 50px;
+    color: rgb(238, 65, 65);
+}
+
+.middle-2{
+    color: white;
+    display: flex;
+    gap: 5px;
+    margin-left: 445px;
+    margin-top: 50px;
+}
+
+.small{
+    background-color: rgb(41, 41, 41);
+    width: 550px;
+    height: 120px;
+    margin-left: 80px;
+}
+
+.small>h4{
+    margin-left: 105px;
+    color: rgb(238, 65, 65);
+    font-size: 35px;
+    margin-top: 15px;
+    margin-right: 150px;
+}
+
+.small>h5{
+    margin-left: 95px;
+    color: rgb(255, 247, 247);
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+
+
+.small-1{
+    background-color: rgb(41, 41, 41);
+    width: 300px;
+    height: 120px;
+    margin-left: 20px;
+}
+
+.small-1>h4{
+    margin-left: 115px;
+    color: rgb(238, 65, 65);
+    font-size: 35px;
+    margin-top: 15px;
+    margin-right: 150px;
+}
+
+.small-1>h5{
+    margin-left: 65px;
+    color: rgb(255, 247, 247);
+    font-size: 25px;
+    margin-top: 14px;
+}
+
+.middle-3{
+    color: white;
+    display: flex;
+    gap: 5px;
+    margin-left: 450px;
+    margin-top: 50px;
+}
+
+.small-2{
+    background-color: rgb(41, 41, 41);
+    width: 300px;
+    height: 120px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.small-2>h4{
+    margin-left: 115px;
+    color: rgb(238, 65, 65);
+    font-size: 35px;
+    margin-top: 15px;
+    margin-right: 150px;
+}
+
+.small-2>h5{
+    margin-left: 75px;
+    color: rgb(255, 247, 247);
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+
+
+.small-3{
+    background-color: rgb(41, 41, 41);
+    width: 300px;
+    height: 120px;
+    margin-left: 25px;
+}
+
+.small-3>h4{
+    margin-left: 135px;
+    color: rgb(238, 65, 65);
+    font-size: 35px;
+    margin-top: 15px;
+    margin-right: 150px;
+}
+
+.small-3>h5{
+    margin-left: 80px;
+    color: rgb(255, 247, 247);
+    font-size: 25px;
+    margin-top: 12px;
+}
+
+footer{
+   padding-top: 30px;
+   padding-bottom: 0px;
+}     
+
+
+.last{
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(36, 35, 35);
+    width: 1300px;
+    height: 150px;
+    margin-right: 10px;
+}
+
+.one{
+    margin-left: 200px;
+    margin-top: 60px;
+}
+
+.two{
+    margin-left: 120px;
+    margin-top: 30px;
+}
+
+@media screen and (max-width:480px){
+    .nav-items{
+        display: none;
+    }
+    
+    .logo{
+        margin-top: 30px;
+        margin-right: 0px;
+        width: 100px;
+    }
+    
+    .para-1{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    
+    .para-left>img{
+        margin-left: 0px;
+    }
+    
+    .para-2-left>h3{
+        font-size: 20px;
+    }
+    
+    .para-2-left>p{
+        font-size: 15px;
+    }
+    
+    .para-3{
+        flex-direction: column;
+        margin-left: 0px;
+    }
+    
+    .para-3-left>img{
+        width: 300px;
+        height: 150px;
+    }
+    
+    .para-3-left{
+        width: 350px;
+        height: 200px;
+        margin-left: 0px;
+    }
+    
+    .para-3-left>h4{
+        margin-top: 30px;
+        margin-right: 0px;
+    }
+    
+    .para-3-left>h5{
+        margin-top: 15px;
+        margin-right: 0px;
+    }
+    
+    .para-3-right>img{
+        width: 300px;
+        height: 150px;
+    }
+    
+    .para-3-right{
+        width: 350px;
+        height: 200px;
+    }
+    
+    .para-3-right>h4{
+        margin-top: 30px;
+        margin-right: 0px;
+    }
+    
+    .para-3-right>h5{
+        margin-right: 0px;
+    }
+    
+    .para-4{
+        flex-direction: column;
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+    
+    .para-4-left>img{
+        width: 300px;
+        height: 150px;
+    }
+    
+    .para-4-left{
+        width: 350px;
+        height: 200px;
+        margin-left: 0px;
+    }
+    
+    .para-4-left>h4{
+        margin-top: 30px;
+        margin-right: 0px;
+    }
+    
+    .para-4-left>h5{
+        margin-top: 10px;
+        margin-right: 0px;
+    }
+    
+    .para-4-right>img{
+        width: 300px;
+        height: 150px;
+    }
+    
+    .para-4-right{
+        width: 350px;
+        height: 200px;
+    }
+    
+    .para-4-right>h4{
+        margin-top: 30px;
+        margin-right: 0px;
+    }
+    
+    .para-4-right>h5{
+        margin-right: 0px;
+    }
+    
+    .para-last{
+        display: flex;
+        color: white;
+        gap: 50px;
+        margin-top: 150px;
+        width: 350px;
+        height: 150px;
+        margin-left: 0px;
+    }
+    
+    .para-last-left{
+      display: none;
+    }
+    
+    .button-2{
+        margin-top: 50px;
+        margin-left: 110px;
+    }
+    
+    .para-01{
+        background-color: transparent;
+        color: transparent;
+    }
+    
+    .middle{
+        width: 0%;
+        height: 0%;
+    }
+    
+    .middle>h1{
+       display: none;
+    }
+    
+    .middle>h4{
+      display: none;
+    }
+    
+    .middle-1{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .box-1{
+        background-color: rgb(41, 41, 41);
+        width: 400px;
+        height: 300px;
+        margin-left: 5px;
+        margin-top: 20px;
+    }
+    
+    .box-1>img{
+        margin-left: 50px;
+        margin-top: 15px;
+        width: 60px;
+        float: left;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+    
+    .box-1>h4{
+        margin-left: 0px;
+        font-size: 30px;
+        margin-top: 100px;
+    }
+    
+    .box-1>p{
+        margin-top: 10px;
+        font-size: 18px;
+        margin-left: 30px;
+    }
+    
+    .box-1>h5{
+        margin-top: 10px;
+        margin-left: 30px;
+        color: red;
+    }
+    
+    .box-2{
+        background-color: rgb(184, 35, 35);
+        width: 400px;
+        height: 300px;
+        margin-left: 5px;
+        margin-top: 20px;
+    }
+    
+    .box-2>img{
+        margin-left: 50px;
+        margin-top: 30px;
+        margin-right: 150px;
+    }
+    
+    .box-2>h4{
+        margin-left: 50px;
+        font-size: 25px;
+        margin-top: 20px;
+    }
+    
+    .box-3{
+        width: 400px;
+        height: 300px;
+        margin-left: 5px;
+        margin-top: 20px;
+    }
+    
+    .middle-2{
+        display: none;
+    }
+    
+    .middle-3{
+        display: none;
+    }
+    
+    
+    
+    footer{
+       padding-top: 30px;
+       padding-bottom: 0px;
+    }     
+    
+    
+    .last{
+        flex-direction: column;
+        width: 350px;
+        height: 150px;
+        margin-right: 10px;
+    }
+    
+    .one{
+        margin-left: 120px;
+        margin-top: 20px;
+    }
+    
+    .two{
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+    
+}
+
+@media screen and (min-width:480px) and (max-width:1024px) {
+    .para-3{
+        display: flex;
+        gap: 70px;
+        margin-left: 50px;
+    }
+    
+    .para-3-left>h4{
+        font-size: 28px;
+    }
+    
+    .para-4{
+        margin-left: 50px;
+    }
+     
+    .para-last{
+        margin-left: 30px;
+    }
+    
+    .para-01{
+        background-color: transparent;
+        color: transparent;
+    }
+    
+    .middle{
+        background-color: rgb(27, 25, 25);
+        height: 10%;
+        width: 50%;
+    }
+    
+    .middle>h1{
+        color: white;
+        text-align: center;
+        font-size: 70px;
+        position: absolute;
+        top: 180%;
+        left: 20%;
+    }
+    
+    .middle>h4{
+        font-size: 40px;
+        top: 200%;
+        left: 10%;
+    }
+    
+    .middle-1{
+        display: flex;
+        margin-top: 50px;
+        color: white;
+    }
+    
+    .box-1{
+        width: 200px;
+        height: 300px;
+    }
+    
+    .box-2{
+        width: 200px;
+        height: 300px;
+    }
+    
+    .box-3{
+        width: 200px;
+        height: 300px;
+    }
+    
+    .middle-2{
+        margin-left: 400px;
+    }
+    
+    .small{
+        width: 450px;
+        height: 120px;
+        margin-left: 0px;
+    }
+    
+    .small-1{
+        width: 300px;
+        height: 120px;
+        margin-left: 20px;
+    }
+    
+    .middle-3{
+        margin-left: 400px;
+    }
+    
+    .small-2{
+        margin-left: 5px;
+        margin-bottom: 50px;
+    }
+    
+    footer{
+       padding-top: 30px;
+       padding-bottom: 0px;
+    }     
+    
+    
+    .last{
+        width: 980px;
+        height: 150px;
+        margin-right: 0px;
+        margin-left: 30px;
+    }
+}
